@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA93C3292934F11D00120046 /* LoveEnglishLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */; };
+		AA93C32B2935142300120046 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93C32A2935142300120046 /* UIImage.swift */; };
 		AAF40F8B29320A550045606F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40F8A29320A550045606F /* AppDelegate.swift */; };
 		AAF40F8D29320A550045606F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40F8C29320A550045606F /* SceneDelegate.swift */; };
 		AAF40F8F29320A550045606F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40F8E29320A550045606F /* ViewController.swift */; };
 		AAF40F9229320A550045606F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF40F9029320A550045606F /* Main.storyboard */; };
 		AAF40F9429320A560045606F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF40F9329320A560045606F /* Assets.xcassets */; };
 		AAF40F9729320A560045606F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF40F9529320A560045606F /* LaunchScreen.storyboard */; };
+		AAF40F9F29320BE10045606F /* LoveEnglishCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40F9E29320BE10045606F /* LoveEnglishCardView.swift */; };
+		AAF40FA329322B3C0045606F /* LoveEnglishWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40FA229322B3C0045606F /* LoveEnglishWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveEnglishLiveData.swift; sourceTree = "<group>"; };
+		AA93C32A2935142300120046 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		AAF40F8729320A550045606F /* iLoveEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLoveEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF40F8A29320A550045606F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF40F8C29320A550045606F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		AAF40F9329320A560045606F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF40F9629320A560045606F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF40F9829320A560045606F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF40F9E29320BE10045606F /* LoveEnglishCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveEnglishCardView.swift; sourceTree = "<group>"; };
+		AAF40FA229322B3C0045606F /* LoveEnglishWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveEnglishWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				AAF40F9329320A560045606F /* Assets.xcassets */,
 				AAF40F9529320A560045606F /* LaunchScreen.storyboard */,
 				AAF40F9829320A560045606F /* Info.plist */,
+				AAF40F9E29320BE10045606F /* LoveEnglishCardView.swift */,
+				AAF40FA229322B3C0045606F /* LoveEnglishWord.swift */,
+				AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */,
+				AA93C32A2935142300120046 /* UIImage.swift */,
 			);
 			path = iLoveEnglish;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			files = (
 				AAF40F8F29320A550045606F /* ViewController.swift in Sources */,
 				AAF40F8B29320A550045606F /* AppDelegate.swift in Sources */,
+				AAF40F9F29320BE10045606F /* LoveEnglishCardView.swift in Sources */,
+				AAF40FA329322B3C0045606F /* LoveEnglishWord.swift in Sources */,
 				AAF40F8D29320A550045606F /* SceneDelegate.swift in Sources */,
+				AA93C3292934F11D00120046 /* LoveEnglishLiveData.swift in Sources */,
+				AA93C32B2935142300120046 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
