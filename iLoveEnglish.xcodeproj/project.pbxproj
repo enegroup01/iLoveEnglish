@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA284F662936424B00A676C2 /* LoveEnglishBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA284F652936424B00A676C2 /* LoveEnglishBarView.swift */; };
+		AA3D99B8293780A000B1CC35 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D99B7293780A000B1CC35 /* UIView+Extension.swift */; };
 		AA93C3292934F11D00120046 /* LoveEnglishLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */; };
 		AA93C32B2935142300120046 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA93C32A2935142300120046 /* UIImage.swift */; };
 		AAF40F8B29320A550045606F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF40F8A29320A550045606F /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA284F652936424B00A676C2 /* LoveEnglishBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveEnglishBarView.swift; sourceTree = "<group>"; };
+		AA3D99B7293780A000B1CC35 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveEnglishLiveData.swift; sourceTree = "<group>"; };
 		AA93C32A2935142300120046 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		AAF40F8729320A550045606F /* iLoveEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLoveEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +76,11 @@
 				AAF40F9529320A560045606F /* LaunchScreen.storyboard */,
 				AAF40F9829320A560045606F /* Info.plist */,
 				AAF40F9E29320BE10045606F /* LoveEnglishCardView.swift */,
+				AA284F652936424B00A676C2 /* LoveEnglishBarView.swift */,
 				AAF40FA229322B3C0045606F /* LoveEnglishWord.swift */,
 				AA93C3282934F11D00120046 /* LoveEnglishLiveData.swift */,
 				AA93C32A2935142300120046 /* UIImage.swift */,
+				AA3D99B7293780A000B1CC35 /* UIView+Extension.swift */,
 			);
 			path = iLoveEnglish;
 			sourceTree = "<group>";
@@ -150,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3D99B8293780A000B1CC35 /* UIView+Extension.swift in Sources */,
 				AAF40F8F29320A550045606F /* ViewController.swift in Sources */,
 				AAF40F8B29320A550045606F /* AppDelegate.swift in Sources */,
 				AAF40F9F29320BE10045606F /* LoveEnglishCardView.swift in Sources */,
+				AA284F662936424B00A676C2 /* LoveEnglishBarView.swift in Sources */,
 				AAF40FA329322B3C0045606F /* LoveEnglishWord.swift in Sources */,
 				AAF40F8D29320A550045606F /* SceneDelegate.swift in Sources */,
 				AA93C3292934F11D00120046 /* LoveEnglishLiveData.swift in Sources */,

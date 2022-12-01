@@ -68,8 +68,8 @@ class ViewController: UIViewController {
 
 private extension ViewController {
     struct UIConfig {
-        static let cardXAxis: CGFloat = 50
-        static let cardYAxis: CGFloat = 250
+        static let cardXAxis: CGFloat = 20
+        static let cardYAxis: CGFloat = 150
     }
 }
 
